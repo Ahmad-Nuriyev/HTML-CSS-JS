@@ -415,3 +415,16 @@ body{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.achievements-section{
+    width: 100%;
+    height: 288px;
+    margin: 100px 0px;
+    background-color: #F5F7FA;
+}
+
+.achievements-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 144px;
+}
