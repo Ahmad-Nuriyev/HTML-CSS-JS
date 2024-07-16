@@ -367,7 +367,7 @@ body{
 
 .pixelgrade-section{
     height: 433px;
-    margin: 200px 0px;
+    margin-top: 200px;
     width: 100%;
 }
 
@@ -419,7 +419,7 @@ body{
 .achievements-section{
     width: 100%;
     height: 288px;
-    margin: 100px 0px;
+    margin: 40px 0px;
     background-color: #F5F7FA;
 }
 
@@ -427,4 +427,72 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 64px 144px;
+}
+
+.container-left{
+    height: 120px;
+    gap: 8px;
+}
+
+.container-left h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+
+.business{
+    height: 88px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4CAF4F;
+}
+
+.container-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    color: #18191F;
+}
+
+.container-right{
+    height: 160px;
+    gap: 90px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 130px;
+    margin-top: -10px;
+}
+
+.top-row, .bottom-row{
+    gap: 30px;
+    height: 60px;
+}
+
+.members, .clubs, .bookings, .payments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+}
+
+.bookings, .payments{
+    margin-top: 35px;
+}
+
+.members h3, .clubs h3, .bookings h3, .payments h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4D4D4D;
+}
+
+.members p, .clubs p, .bookings p, .payments p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
 }
