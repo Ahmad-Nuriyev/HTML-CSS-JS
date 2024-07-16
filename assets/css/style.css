@@ -204,6 +204,41 @@ body{
         width: 80px;
         height: 80px;
     }
+    .responsive-one{         /* My responsive codes start from here */
+        margin-top: 50px;
+    }
+    .three-icons{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: start !important;
+        margin-top:5px !important;
+        width: 100% !important;
+        gap: 20px;
+    }
+    .icon-one, .icon-two,{
+        height: 300px !important;
+        width: 40% !important;
+    }    
+    .pixelgrade-section{
+        margin-top: 350px !important;
+        position: relative;
+    }
+    .container-pixelgrade{
+        position: absolute;
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    .pixelgrade-writings h2{
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    .achievements-section{
+        margin-top: 200px !important;
+    }
+ 
+
+
 }
 .scroll{
     position: fixed;
@@ -357,7 +392,7 @@ body{
     width: 80%;
 }
 
-.pixelgrade-section .container{
+.container-pixelgrade{
     padding: 0px 144px;
     display: flex;
     justify-content: space-between;
