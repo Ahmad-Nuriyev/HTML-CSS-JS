@@ -286,7 +286,7 @@ body{
 }
 
 
-.container-pixelgrade{
+.pixelgrade-section .container{
     padding: 0px 144px;
     display: flex;
     justify-content: space-between;
@@ -471,7 +471,11 @@ body{
         width: 80px;
         height: 80px;
     }
-    .responsive-one{         /* My responsive codes start from here */
+
+
+    /* My responsive codes start from here */
+    
+    .responsive-one{         
         margin-top: 50px;
         margin-bottom: 20px;
     }
@@ -479,13 +483,48 @@ body{
         margin-top:5px;
         gap: 20px;
     }
-
     .icon-one, .icon-two, .icon-three{
         width: 30%;
     }
-
     .icon-one h3, .icon-two h3, .icon-three h3{
         font-size: 22px;
         line-height: 25px;
     }
+
+
+    .pixelgrade-section .container{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: row;
+        padding: 0;
+    }
+    .pixelgrade-img{
+        margin-left: 0px;
+    }
+    .pixelgrade-writings{
+        margin-left: 30px;
+    }
+    .pixelgrade-writings h2{
+        font-size: 30px;
+        width: 100%;
+        line-height: 35px;    
+    }
+    .pixelgrade-writings p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .achievements-container{
+        padding: 50px 50px;
+        gap: 30px;
+    }
+
+    .container-right{
+        margin-right: 0;
+        margin-top: 0;
+    }
+
 }
